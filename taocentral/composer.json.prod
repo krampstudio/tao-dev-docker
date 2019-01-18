@@ -1,0 +1,93 @@
+{
+  "name": "oat-sa/deploy-test-package",
+  "license": "GPL-2.0",
+  "require-dev": {
+    "mikey179/vfsStream": "1.4.0",
+    "phpunit/phpunit": "^4.8",
+    "pear/archive_tar": "^1.4"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "support": {
+    "issues": "http://forge.taotesting.com",
+    "forum": "http://forum.taotesting.com"
+  },
+  "authors": [{
+    "homepage": "http://www.taotesting.com",
+    "name": "Open Assessment Technologies S.A."
+  }, {
+    "role": "Developer",
+    "name": "Jérome Bogaerts"
+  }, {
+    "role": "Developer",
+    "name": "Joel Bout"
+  }, {
+    "role": "Developer",
+    "name": "Bertrand Chevrier"
+  }, {
+    "role": "Developer",
+    "name": "Lionel Lecaque"
+  }, {
+    "role": "Developer",
+    "name": "Patrick Plichart"
+  }, {
+    "role": "Developer",
+    "name": "Dieter Raber"
+  }, {
+    "role": "Developer",
+    "name": "Somsack Sipasseuth"
+  }],
+  "keywords": [
+    "tao",
+    "oat",
+    "computer-based-assessment"
+  ],
+  "repositories": [{
+    "type": "vcs",
+    "url": "https://github.com/oat-sa/extension-tao-mobile-app.git"
+  }, {
+    "type": "vcs",
+    "url": "https://github.com/oat-sa/extension-tao-static-deliveries.git"
+  }],
+  "minimum-stability": "dev",
+  "homepage": "http://www.taotesting.com",
+  "require": {
+    "oat-sa/phing-task-tao": "~0.1",
+    "doctrine/common": "~2.6.0",
+    "doctrine/inflector": "~1.0.0",
+    "oat-sa/generis": "~7.14.2",
+    "oat-sa/tao-core": "~22.0.2",
+    "oat-sa/extension-tao-community": "~5.1.1",
+    "oat-sa/extension-tao-funcacl": "~5.1.0",
+    "oat-sa/extension-tao-testtaker": "~4.1.0",
+    "oat-sa/extension-tao-group": "~4.1.0",
+    "oat-sa/extension-tao-item": "~6.3.0",
+    "oat-sa/extension-tao-itemqti": "~18.5.0",
+    "oat-sa/extension-tao-itemqti-pci": "~4.7.0",
+    "oat-sa/extension-tao-itemqti-pic": "~5.2.4",
+    "oat-sa/extension-tao-test": "~8.2.0",
+    "oat-sa/extension-tao-testqti": "~29.4.1",
+    "oat-sa/extension-tao-testqti-previewer": "~1.0.0",
+    "oat-sa/extension-tao-outcome": "~8.0.1",
+    "oat-sa/extension-tao-outcomeui": "~7.3.1",
+    "oat-sa/extension-tao-outcomerds": "~5.0.1",
+    "oat-sa/extension-tao-delivery": "~12.3.0",
+    "oat-sa/extension-tao-delivery-rdf": "~7.3.0",
+    "oat-sa/extension-tao-devtools": "~4.0.0",
+    "oat-sa/extension-tao-mediamanager": "~5.0.1",
+    "oat-sa/extension-pcisample": "~2.3.4",
+    "oat-sa/extension-tao-backoffice": "~3.1.0",
+    "oat-sa/extension-tao-testcenter": "~4.2.0",
+    "oat-sa/extension-tao-proctoring": "~12.3.4",
+    "oat-sa/extension-tao-sync": "~3.0.1",
+    "oat-sa/extension-tao-static-deliveries": "~0.2.0",
+    "oat-sa/extension-tao-mobile-app": "~1.0.0",
+    "oat-sa/extension-tao-task-queue": "~1.2.1",
+    "oat-sa/extension-tao-eventlog": "~2.1.2",
+    "oat-sa/extension-tao-publishing" : "~1.1.0",
+    "oat-sa/extension-tao-offline" : "~2.0.0",
+    "oat-sa/extension-tao-oauth": "~1.1.1"
+  },
+  "description": "TAO is an Open Source e-Testing platform that empowers you to build, deliver, and share innovative and engaging assessments online \u2013 in any language or subject matter."
+}

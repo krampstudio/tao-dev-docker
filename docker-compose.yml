@@ -1,0 +1,27 @@
+version: '3.1'
+services:
+    web:
+        container_name: taoweb
+        build: webserver
+        depends_on:
+            - db
+        links:
+            - db
+        ports:
+            - "80:80"
+            - "443:443"
+        restart: always
+        volumes:
+            - ./taoce:/var/www/html/taoce
+            - ./taocentral:/var/www/html/taocentral
+            - ./scripts:/root/scripts
+    db:
+        image: mysql:latest
+        command: --default-authentication-plugin=mysql_native_password
+        restart: always
+        environment:
+            MYSQL_USER: tao
+            MYSQL_PASSWORD: tobechanged
+            MYSQL_ROOT_PASSWORD: tobechanged
+        ports:
+            - "3306:3306"
